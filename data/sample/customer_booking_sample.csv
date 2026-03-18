@@ -1,0 +1,101 @@
+num_passengers,sales_channel,trip_type,purchase_lead,length_of_stay,flight_hour,flight_day,route,booking_origin,wants_extra_baggage,wants_preferred_seat,wants_in_flight_meals,flight_duration,booking_complete
+1,Internet,RoundTrip,142,5,3,Sat,LGKMEL,Australia,0,0,1,8.83,0
+1,Mobile,RoundTrip,145,5,5,Fri,CGKHND,Japan,0,0,0,7.57,0
+1,Mobile,RoundTrip,49,5,11,Thu,PERSGN,Australia,1,1,1,5.62,0
+1,Internet,RoundTrip,100,26,17,Thu,MELRGN,Australia,1,1,1,8.83,1
+1,Internet,RoundTrip,7,61,1,Thu,JHBKTM,Malaysia,1,0,1,4.75,1
+3,Internet,RoundTrip,55,6,15,Mon,ICNPEN,South Korea,1,1,1,6.62,1
+1,Internet,RoundTrip,1,2,4,Thu,KCHTPE,Taiwan,0,0,1,4.67,1
+2,Internet,RoundTrip,52,19,4,Thu,HNDKNO,Japan,1,0,1,7.57,0
+1,Internet,RoundTrip,2,62,9,Mon,JHBKTM,Malaysia,1,0,0,4.75,1
+1,Internet,RoundTrip,73,18,10,Sun,MELPEN,Malaysia,0,1,1,8.83,1
+1,Internet,RoundTrip,8,44,10,Mon,KTMPEN,Malaysia,1,0,0,4.75,1
+1,Internet,RoundTrip,4,27,22,Mon,KIXPEN,Japan,1,1,1,7.0,1
+2,Internet,RoundTrip,147,6,14,Tue,DPSICN,South Korea,1,0,0,6.62,0
+1,Internet,RoundTrip,4,4,11,Mon,DMKMEL,Thailand,0,0,0,8.83,1
+1,Internet,RoundTrip,63,17,5,Sun,MELSGN,Australia,1,0,1,8.83,0
+1,Internet,RoundTrip,21,75,20,Tue,COKMEL,Australia,1,1,1,8.83,1
+1,Internet,RoundTrip,35,5,0,Fri,BKIPER,Malaysia,1,1,0,5.62,0
+1,Internet,RoundTrip,232,3,5,Thu,HNDSGN,Vietnam,0,0,0,7.57,0
+1,Internet,RoundTrip,51,5,3,Mon,DPSHND,Indonesia,1,0,1,7.57,1
+1,Internet,RoundTrip,5,2,5,Thu,ICNPEN,South Korea,1,0,0,6.62,1
+1,Internet,RoundTrip,3,4,7,Thu,BKIPVG,Malaysia,1,0,0,5.33,0
+2,Internet,RoundTrip,224,18,16,Tue,AKLKUL,Malaysia,1,0,1,8.83,0
+4,Internet,RoundTrip,206,3,11,Sun,ICNLGK,South Korea,1,1,1,6.62,1
+2,Internet,RoundTrip,42,6,16,Thu,KBVPVG,China,1,0,0,5.33,1
+2,Internet,RoundTrip,33,3,10,Sat,KCHTPE,Taiwan,1,0,0,4.67,0
+1,Internet,RoundTrip,11,5,6,Mon,RGNSYD,Australia,1,0,1,8.58,1
+2,Internet,RoundTrip,31,6,8,Sat,CGKHND,Indonesia,1,0,0,7.57,1
+2,Internet,RoundTrip,47,5,9,Sat,ICNKNO,Malaysia,1,0,1,6.62,0
+3,Internet,RoundTrip,22,32,3,Tue,DMKOOL,Thailand,1,1,1,8.83,1
+1,Internet,RoundTrip,114,6,0,Mon,OOLPNH,Australia,1,1,1,8.83,0
+1,Internet,RoundTrip,0,3,2,Mon,PENTPE,Malaysia,0,0,0,4.67,1
+3,Internet,RoundTrip,276,6,8,Mon,CTSDMK,Thailand,1,0,0,8.67,1
+4,Internet,RoundTrip,62,4,6,Mon,ICNSIN,South Korea,0,0,0,6.62,0
+3,Internet,RoundTrip,16,4,3,Fri,ICNKCH,South Korea,1,0,0,6.62,1
+1,Internet,RoundTrip,18,5,11,Wed,CTUTWU,China,0,0,0,4.72,0
+1,Internet,RoundTrip,42,19,8,Thu,CGKMEL,Indonesia,0,1,1,8.83,1
+2,Internet,RoundTrip,251,29,4,Mon,CRKOOL,Australia,1,0,0,8.83,0
+1,Internet,RoundTrip,42,6,14,Tue,JHBTPE,Malaysia,1,0,1,4.67,0
+1,Internet,RoundTrip,68,57,2,Wed,JHBKTM,Malaysia,1,0,0,4.75,1
+1,Internet,RoundTrip,2,19,7,Wed,PENPVG,Taiwan,0,0,0,5.33,1
+1,Internet,RoundTrip,21,4,12,Fri,HNDLGK,Japan,0,0,1,7.57,1
+1,Mobile,RoundTrip,196,4,7,Sat,PENPVG,China,1,1,1,5.33,1
+2,Internet,RoundTrip,60,5,8,Fri,HKTPEK,China,0,1,0,6.42,1
+1,Internet,RoundTrip,308,4,3,Wed,ICNSIN,South Korea,0,0,0,6.62,0
+1,Internet,RoundTrip,76,85,0,Sun,AKLKUL,New Zealand,0,0,0,8.83,1
+2,Internet,RoundTrip,401,4,17,Sun,ICNLGK,South Korea,1,1,1,6.62,1
+3,Internet,RoundTrip,102,29,3,Fri,MELTRZ,Indonesia,1,1,0,8.83,0
+1,Mobile,RoundTrip,13,88,10,Wed,MELMNL,Australia,1,0,0,8.83,1
+1,Internet,RoundTrip,50,70,9,Mon,KNOSYD,Australia,1,0,1,8.58,0
+2,Internet,RoundTrip,6,5,8,Tue,KIXPEN,Malaysia,0,1,0,7.0,1
+2,Internet,RoundTrip,106,6,17,Mon,CCUTPE,India,1,0,0,4.67,1
+1,Internet,RoundTrip,205,29,5,Tue,JHBMEL,Malaysia,0,1,1,8.83,1
+1,Internet,RoundTrip,53,3,14,Tue,HKGPER,Australia,0,1,0,5.62,1
+1,Internet,RoundTrip,6,40,5,Wed,DMKPEK,Thailand,0,0,0,6.42,1
+1,Mobile,RoundTrip,77,3,7,Tue,MELPEN,Malaysia,1,0,1,8.83,1
+4,Internet,RoundTrip,91,30,7,Sun,AKLKUL,New Zealand,0,1,1,8.83,0
+2,Internet,RoundTrip,133,42,9,Wed,OOLSBW,Malaysia,1,1,1,8.83,1
+2,Internet,RoundTrip,57,6,3,Fri,CTUDPS,China,1,1,1,4.72,0
+1,Internet,RoundTrip,5,57,8,Tue,PERSGN,Australia,1,1,1,5.62,1
+2,Internet,RoundTrip,168,5,12,Sat,DPSKIX,Japan,1,1,0,7.0,0
+1,Internet,RoundTrip,170,18,10,Mon,AKLKUL,New Zealand,0,1,1,8.83,0
+1,Internet,RoundTrip,6,74,2,Wed,HKGPER,Australia,1,0,0,5.62,0
+1,Internet,RoundTrip,52,18,5,Wed,HNDSYD,Australia,1,1,1,8.58,0
+1,Internet,RoundTrip,11,5,1,Fri,BKIPER,Malaysia,1,1,1,5.62,1
+2,Internet,RoundTrip,96,6,7,Sun,DPSKIX,Japan,0,0,0,7.0,0
+1,Internet,RoundTrip,71,4,13,Wed,DMKKIX,Japan,0,0,1,7.0,0
+1,Mobile,RoundTrip,81,4,7,Thu,ICNMLE,South Korea,0,1,1,6.62,1
+2,Mobile,RoundTrip,79,6,15,Wed,HGHLGK,China,0,1,1,5.07,0
+2,Internet,RoundTrip,355,42,23,Wed,HNDPEN,United States,1,1,1,7.57,0
+2,Internet,RoundTrip,69,6,7,Tue,DPSPUS,South Korea,0,0,0,6.33,0
+1,Internet,RoundTrip,104,30,2,Sun,DMKOOL,Australia,1,1,1,8.83,0
+1,Mobile,RoundTrip,6,5,20,Tue,KBVPEK,China,0,1,0,6.42,1
+3,Internet,RoundTrip,72,21,1,Wed,DMKOOL,Australia,1,0,1,8.83,0
+1,Internet,RoundTrip,8,6,9,Fri,PENTPE,Malaysia,1,1,0,4.67,1
+1,Internet,RoundTrip,40,6,9,Wed,COKPER,Australia,0,0,0,5.62,0
+1,Internet,RoundTrip,9,21,6,Wed,COKPER,Australia,0,0,0,5.62,0
+2,Internet,RoundTrip,120,79,13,Thu,ICNMEL,South Korea,1,0,1,8.83,0
+1,Internet,RoundTrip,43,26,8,Fri,CKGSUB,Indonesia,1,1,1,4.83,1
+1,Mobile,RoundTrip,5,5,6,Fri,AKLKUL,Malaysia,0,0,1,8.83,0
+1,Internet,RoundTrip,39,87,7,Tue,ICNOOL,South Korea,1,0,0,8.83,0
+2,Mobile,RoundTrip,45,4,9,Tue,HKTHND,Japan,0,0,0,7.57,0
+1,Mobile,RoundTrip,142,26,5,Sun,KCHPER,Australia,1,1,0,5.62,0
+1,Internet,RoundTrip,35,31,12,Sat,PERSGN,Vietnam,0,0,0,5.62,1
+1,Internet,RoundTrip,282,5,14,Tue,BKIMEL,Malaysia,1,1,1,8.83,1
+1,Internet,RoundTrip,26,3,17,Tue,DELSGN,Vietnam,0,0,0,5.52,1
+1,Internet,RoundTrip,26,37,10,Sun,DELSIN,France,1,0,0,5.52,0
+1,Internet,RoundTrip,89,3,6,Fri,HNDPEN,Malaysia,1,0,0,7.57,1
+1,Internet,RoundTrip,47,41,7,Mon,JHBKTM,Malaysia,1,0,0,4.75,1
+3,Internet,RoundTrip,21,5,15,Sat,DPSXIY,China,1,0,1,5.0,1
+1,Internet,RoundTrip,50,4,8,Sun,JOGKIX,Japan,0,0,0,7.0,0
+2,Internet,RoundTrip,129,41,15,Wed,COKPER,Australia,1,1,1,5.62,0
+1,Internet,RoundTrip,68,5,3,Thu,DACOOL,Australia,1,0,0,8.83,0
+1,Internet,RoundTrip,54,20,8,Mon,AKLKUL,New Zealand,1,0,1,8.83,0
+1,Internet,RoundTrip,113,5,9,Sat,DPSPEK,China,0,0,0,6.42,0
+1,Internet,RoundTrip,59,60,6,Tue,KTMPEN,Malaysia,1,0,0,4.75,1
+1,Internet,RoundTrip,28,87,10,Thu,COKMEL,United Arab Emirates,1,1,1,8.83,0
+7,Internet,RoundTrip,46,18,1,Wed,CGKSYD,Australia,1,1,1,8.58,0
+1,Mobile,RoundTrip,47,91,22,Wed,HKGMEL,Australia,1,1,1,8.83,1
+1,Internet,RoundTrip,295,20,7,Mon,OOLSGN,Australia,1,1,0,8.83,0
+1,Internet,RoundTrip,34,22,6,Wed,IKAMEL,Australia,1,0,1,8.83,0

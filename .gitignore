@@ -1,0 +1,105 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# ── Environment variables ─────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.env
+
+# ── Data & model artifacts ────────────────────────────────────────────────────
+data/*.csv
+data/*.json
+data/*.parquet
+!data/sample/*.csv          # keep sample data committed
+!data/.gitkeep
+
+models/*.pkl
+models/*.joblib
+models/*.bin
+!models/meta.json           # keep — API needs this at startup
+!models/scores.csv          # keep — metrics page needs this
+!models/.gitkeep
+
+# ── Optuna ────────────────────────────────────────────────────────────────────
+optuna.db
+*.db
+
+# ── CatBoost temp training dirs ───────────────────────────────────────────────
+catboost_info/
+catboost/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Node / Frontend ───────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+node_modules/
+dist/
+.npm
+
+# ── IDE & Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+pip-log.txt
+
+# ── Testing & coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+coverage.xml
+*.cover
+
+# ── Linting ───────────────────────────────────────────────────────────────────
+.ruff_cache/
+
+# ── ML / HuggingFace cache ────────────────────────────────────────────────────
+.cache/
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.orig

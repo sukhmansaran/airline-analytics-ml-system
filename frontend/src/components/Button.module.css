@@ -1,0 +1,33 @@
+.btn {
+  padding: 0.6rem 1.4rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: opacity 0.15s, transform 0.1s;
+  min-width: 120px;
+}
+
+.btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.btn:not(:disabled):hover { opacity: 0.88; }
+.btn:not(:disabled):active { transform: scale(0.98); }
+
+.primary { background: var(--ba-blue); color: #fff; }
+.danger  { background: var(--ba-red);  color: #fff; }
+.ghost   { background: transparent; color: var(--ba-blue); border: 1.5px solid var(--ba-blue); }
+
+.spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255,255,255,0.4);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  display: inline-block;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }

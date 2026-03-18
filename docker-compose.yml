@@ -1,0 +1,48 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    container_name: ba_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - hf_cache:/root/.cache/huggingface   # persist RoBERTa — avoids re-download on restart
+    environment:
+      - MODELS_DIR=models
+      - HF_HUB_DISABLE_SYMLINKS_WARNING=1
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: ba_frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - api
+    restart: unless-stopped
+
+  train:
+    build: .
+    container_name: ba_train
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+    environment:
+      - MODELS_DIR=models
+      - TEMP=/tmp
+    command: python -m training.train
+    profiles:
+      - train
+
+volumes:
+  hf_cache:

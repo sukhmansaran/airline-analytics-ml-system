@@ -1,0 +1,6 @@
+Id,Customer Name,Review Head,Review,Date,Airport Name,Seat Type,Ratings(10),Recommended
+1001,john smith,great flight experience,the crew was fantastic and the seats were comfortable the food was excellent,1st January 2024,London Heathrow,Economy Class,9,yes
+1002,jane doe,terrible service,flight was delayed by 3 hours and the staff were rude no apology given,5th February 2024,London Gatwick,Economy Class,2,no
+1003,mike johnson,average experience,nothing special about this flight it was ok but not great,10th March 2024,London Heathrow,Business Class,5,no
+1004,sarah wilson,excellent business class,the business class lounge was superb and the flat bed was very comfortable,15th April 2024,London Heathrow,Business Class,10,yes
+1005,tom brown,disappointing flight,lost my luggage and customer service was unhelpful took days to resolve,20th May 2024,Manchester,Economy Class,1,no
