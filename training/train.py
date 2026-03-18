@@ -1,24 +1,17 @@
 import os
-os.environ["LOKY_MAX_CPU_COUNT"] = "8"
+os.environ["LOKY_MAX_CPU_COUNT"] = str(os.cpu_count() or 4)  # noqa: E402 — must precede joblib imports
 
-import warnings
-warnings.filterwarnings(
-    "ignore",
-    message="Could not find the number of physical cores"
-)
+import json  # noqa: E402
+import joblib  # noqa: E402
+import pandas as pd  # noqa: E402
+import optuna  # noqa: E402
+from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_score  # noqa: E402
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score  # noqa: E402
+from xgboost import XGBClassifier  # noqa: E402
+from lightgbm import LGBMClassifier  # noqa: E402
+from catboost import CatBoostClassifier  # noqa: E402
 
-import json
-import joblib
-import numpy as np
-import pandas as pd
-import optuna
-from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_score
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
-from xgboost import XGBClassifier
-from lightgbm import LGBMClassifier
-from catboost import CatBoostClassifier
-
-from training.preprocess import preprocess
+from training.preprocess import preprocess  # noqa: E402
 
 MODELS_DIR = "models"
 N_TRIALS = 30

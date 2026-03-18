@@ -1,6 +1,5 @@
 """Booking completion prediction endpoint."""
 
-import numpy as np
 import pandas as pd
 from fastapi import APIRouter, HTTPException
 from api.schemas import BookingInput, BookingPrediction
