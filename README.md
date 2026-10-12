@@ -1,6 +1,6 @@
 # ✈ British Airways ML Pipeline
 
-![CI](https://github.com/YOUR_USERNAME/british-airways-ds/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/sukhmansaran/airline-analytics-ml-system/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
 ![Node](https://img.shields.io/badge/Node.js-18%2B-green?logo=node.js&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688?logo=fastapi&logoColor=white)
@@ -64,8 +64,8 @@ Data flows from scraping → preprocessing → training → model artifacts → 
 ## Quick Start (Docker)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/british-airways-ds.git
-cd british-airways-ds
+git clone https://github.com/sukhmansaran/airline-analytics-ml-system.git
+cd airline-analytics-ml-system
 docker-compose up --build
 ```
 
@@ -257,7 +257,6 @@ make scrape
 | `deploy.yml` | Push to `main` / tag | Build + push image to Docker Hub |
 
 Add `DOCKER_USERNAME` and `DOCKER_PASSWORD` to GitHub Secrets to enable deploy.
-Replace `YOUR_USERNAME/british-airways-ds` in the badge URLs above with your repo path.
 
 ---
 
